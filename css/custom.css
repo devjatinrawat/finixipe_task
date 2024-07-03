@@ -1,0 +1,142 @@
+/* custom.css */
+
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  a:hover {
+    color: #23527c;
+  }
+  
+  /* Header Styles */
+  
+  header {
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  header nav {
+    margin-top: 20px;
+  }
+  
+  header nav a {
+    margin: 0 10px;
+    color: #fff;
+  }
+  
+  header nav a:hover {
+    color: #ccc;
+  }
+  
+  header .btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #fff;
+  }
+  
+  header .btn-warning:hover {
+    background-color: #ffa07a;
+    border-color: #ffa07a;
+  }
+  
+  /* Section Styles */
+  
+  section {
+    padding: 40px 0;
+  }
+  
+  section.bg-primary {
+    background-color: #337ab7;
+    color: #fff;
+  }
+  
+  section.bg-dark {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  section p {
+    margin-bottom: 20px;
+  }
+  
+  section .lead {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  section .btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #fff;
+  }
+  
+  section .btn-warning:hover {
+    background-color: #ffa07a;
+    border-color: #ffa07a;
+  }
+  
+  /* Footer Styles */
+  
+  footer {
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+  }
+  
+  footer p {
+    margin-bottom: 0;
+  }
+  
+  /* Screenshots Section Styles */
+  
+  #screenshots img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive Styles */
+  
+  @media (max-width: 768px) {
+    section {
+      padding: 20px 0;
+    }
+    section h2 {
+      font-size: 18px;
+    }
+    section p {
+      font-size: 14px;
+    }
+    #screenshots img {
+      height: 150px;
+    }
+  }
